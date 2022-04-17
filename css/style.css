@@ -85,8 +85,9 @@ html {
 .imatges{
     min-width: 850px;
     max-width: 1700px;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
     margin: auto;
+    border: 1px white groove;
 }
 
 .logo{
