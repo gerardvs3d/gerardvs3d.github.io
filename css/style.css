@@ -15,7 +15,6 @@ html {
     background-size: 100%;
 }
 
-
 .background1{
     background-image: url(../imgs/black1.png);
     background-attachment: fixed;
@@ -246,7 +245,7 @@ h2, h3, h4{
 }
 
 /*
-CAPÇAL FIXE:
+CAPÇAL FIXE-----------------------------
 
 left: 0;
 top: 0;
@@ -254,10 +253,8 @@ position: fixed;
 */
 
 
-
-
-
-/*SLIDER AUTOMÀTIC
+/*
+SLIDER AUTOMÀTIC------------------------
 
 *{box-sizing:border-box}
 
