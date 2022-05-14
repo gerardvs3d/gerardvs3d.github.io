@@ -20,14 +20,15 @@ html {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: rgba(0,0,0,.7);
+    background-color: rgba(0,0,0,.6);
     background-attachment: fixed;
     background-position: absolute;
     border-bottom: 1px solid white;
     margin: auto;
     position: fixed;
-    padding-top: 35px;
     backdrop-filter: blur(4px);
+    padding-bottom: 30px;
+    padding-top: 15px;
 }
 
 .align_left{
@@ -38,32 +39,31 @@ html {
 .align_right{
     display: flex;
     align-content: flex-end;
-    margin-bottom: 50px;
-    margin-top: 60px;
+    margin-top: 35px;
 }
 
 .curriculum{
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
     margin: auto;
     line-height: 20px;
+    padding-top: 250px;
 }
 
 .home{
-    width: 900px;
+    width: 90%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    line-height : 20px;
-}
-
-.apartats{
-    width: 900px;
-    padding-top: 320px;
+    line-height: 20px;
 }
 
 .bottom_container{
@@ -71,7 +71,7 @@ html {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: rgba(0,0,0,.7);
+    background-color: rgba(0,0,0,.6);
     background-attachment: fixed;
     background-position: absolute;
     border-top: 1px solid white;
@@ -85,18 +85,56 @@ html {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: rgba(0,0,0,.7);
+    background-color: rgba(0,0,0,.6);
     background-attachment: fixed;
     background-position: absolute;
     border-top: 1px solid white;
     margin: auto;
 }
 
+.treballs{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    line-height: 20px;
+    padding-top: 250px;
+}
+
 .imatges{
-    width: 100%;
+    width: 800px;
     margin-bottom: 10px;
     margin: auto;
     border: 1px white groove;
+}
+
+.imatge1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    line-height: 20px;
+    padding-right: 10px;
+}
+
+.imatge2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    line-height: 20px;
+    padding-left: 10px;
 }
 
 .logo{
@@ -120,8 +158,8 @@ html {
 }
 
 .hrdiv2{
+    width: 800px;
     padding-bottom: 20px;
-    color: red;
 }
 
 .boto_menu{
@@ -138,8 +176,7 @@ html {
 .div_idioma{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    padding-right: 20px;
+    padding-right: 70px;
 }
 
 .banderes{
@@ -157,7 +194,7 @@ h1{
 }
 
 h2, h3, h4{
-	color: white;
+	color: rgb(255,255,255);
 	font-family: 'Merriweather Sans', sans-serif;
     font-weight: bold;
     font-style: normal;
@@ -166,13 +203,13 @@ h2, h3, h4{
 }
 
 .font1{
-    color: rgb(200,200,200);
+    color: rgb(225,225,225);
     font-family: 'Work Sans', sans-serif;
     text-align: center;
     font-weight: bold;
     font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
+    font-weight: 500;
+    font-size: 15px;
 }
 
 .font2{
@@ -186,12 +223,12 @@ h2, h3, h4{
 }
 
 .font3{
-    color: rgb(200,200,200);
+    color: rgb(225,225,225);
     font-family: 'Work Sans', sans-serif;
     text-align: center;
     font-weight: bold;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 12px;
 }
 
@@ -209,6 +246,21 @@ h2, h3, h4{
 .links a:hover{
     background-color: rgba(128,128,128,0.3);
     font-size: 15px;
+}
+
+.linkcontacte a{
+    color: rgb(225,225,225);
+    text-decoration: none;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+    transition: 0.3s all;
+    transition-delay: 0s;
+}
+
+.linkcontacte a:hover{
+    background-color: rgba(128,128,128,0.3);
 }
 
 .link_idioma a{
