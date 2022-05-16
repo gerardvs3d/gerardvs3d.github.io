@@ -19,7 +19,8 @@ html {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
     background-color: rgba(0,0,0,.6);
     background-attachment: fixed;
     background-position: absolute;
@@ -34,12 +35,14 @@ html {
 .align_left{
     display: flex;
     align-content: flex-start;
+    margin-left: 6%;
 }
 
 .align_right{
     display: flex;
     align-content: flex-end;
     margin-top: 35px;
+    margin-right: 6%;
 }
 
 .curriculum{
@@ -93,23 +96,25 @@ html {
 }
 
 .treballs{
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
     margin: auto;
     line-height: 20px;
     padding-top: 250px;
 }
 
 .imatges{
-    width: 800px;
+    width: 100%;
     margin-bottom: 10px;
     margin: auto;
     border: 1px white groove;
 }
 
 .imatge1{
+    width: 42%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -121,9 +126,11 @@ html {
     margin: auto;
     line-height: 20px;
     padding-right: 10px;
+    margin-left: 6%;
 }
 
 .imatge2{
+    width: 42%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -135,6 +142,7 @@ html {
     margin: auto;
     line-height: 20px;
     padding-left: 10px;
+    margin-right: 6%;
 }
 
 .logo{
@@ -157,8 +165,13 @@ html {
     padding-right: 15px;
 }
 
-.hrdiv2{
+.hrdiv{
     width: 800px;
+    padding-bottom: 20px;
+}
+
+.hrdiv2{
+    width: 100%;
     padding-bottom: 20px;
 }
 
@@ -176,13 +189,103 @@ html {
 .div_idioma{
     display: flex;
     flex-wrap: wrap;
-    padding-right: 70px;
 }
 
 .banderes{
     width: 20px;
-    height: 10px;
+    height: 12px;
 }
+
+
+
+@media only screen and (max-width: 992px) {
+    .treballs{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: auto;
+        line-height: 20px;
+        padding-top: 250px;
+    }
+
+    .imatges{
+        width: 800px;
+        margin-bottom: 10px;
+        margin: auto;
+        border: 2px white groove;
+    }
+
+    .imatge1{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        margin: auto;
+        line-height: 20px;
+    }
+
+    .imatge2{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        margin: auto;
+        line-height: 20px;
+    }
+
+    .hrdiv{
+        width: 800px;
+        padding-bottom: 20px;
+    } 
+
+    .hrdiv2{
+        width: 800px;
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 1370px) {
+    .top_container{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: rgba(0,0,0,.6);
+        background-attachment: fixed;
+        background-position: absolute;
+        border-bottom: 1px solid white;
+        margin: auto;
+        position: fixed;
+        backdrop-filter: blur(4px);
+        padding-bottom: 30px;
+        padding-top: 15px;
+    }
+
+    .align_left{
+        display: flex;
+        align-content: flex-start;
+        padding-right: 60px;
+    }
+
+    .align_right{
+        width: 100%;
+        display: flex;
+        align-content: flex-end;
+        margin-top: 35px;
+    }
+}
+
+
 
 h1{
     padding-top: 25px;
