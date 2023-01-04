@@ -301,7 +301,7 @@ html {
 h1{
     padding-top: 25px;
     color: white;
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-style: normal;
     font-weight: 800;
@@ -309,7 +309,7 @@ h1{
 
 h2, h3, h4{
 	color: rgb(255,255,255);
-	font-family: 'Merriweather Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-style: normal;
     font-weight: 800;
@@ -318,7 +318,7 @@ h2, h3, h4{
 
 .font1{
     color: rgb(225,225,225);
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     font-weight: bold;
     font-style: normal;
@@ -328,7 +328,7 @@ h2, h3, h4{
 
 .font2{
     color: rgb(180,180,180);
-	font-family: 'Merriweather Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	text-align: center;
     font-weight: bold;
     font-style: normal;
@@ -338,7 +338,7 @@ h2, h3, h4{
 
 .font3{
     color: rgb(225,225,225);
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     font-weight: bold;
     font-style: normal;
