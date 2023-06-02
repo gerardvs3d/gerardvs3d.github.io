@@ -110,6 +110,11 @@ html {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
     margin: auto;
     line-height: 20px;
     padding-top: 210px;
