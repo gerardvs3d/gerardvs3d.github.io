@@ -121,6 +121,25 @@ html {
     padding-top: 210px;
 }
 
+.video-responsive {
+position: relative;
+padding-bottom: 42.55%; /* 2.35/1 ratio */
+padding-top: 30px; /* IE6 workaround*/
+height: 0;
+overflow: hidden;
+width: 100%;
+}
+
+.video-responsive iframe,
+.video-responsive object,
+.video-responsive embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
 .imatges{
     width: 100%;
     margin-bottom: 10px;
@@ -222,6 +241,14 @@ html {
         width: 800px;
     }
 
+    p{
+        width: 800px;
+    }
+
+    h2{
+        width: 800px;
+    }
+
     .imatges{
         width: 800px;
         margin-bottom: 10px;
@@ -230,7 +257,7 @@ html {
     }
 
     .imatge1{
-        width: 50%;
+        width: 800px;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -308,6 +335,15 @@ h2, h3, h4{
     font-style: normal;
     font-weight: 550;
     text-shadow: rgba(0,0,0,0.3) 0px 0px 5px;
+    width: 100%;
+}
+
+p{
+    width: 100%;
+}
+
+.pad{
+    margin-top: 800px;
 }
 
 .font1{
