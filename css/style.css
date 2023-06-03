@@ -55,10 +55,11 @@ html {
 }
 
 .curriculum{
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: space-between;
     text-align: center;
     align-content: center;
     align-items: center;
@@ -146,9 +147,9 @@ html {
     /*padding-right: 10px;*/
     /*margin-left: 6%;*/
 }
-/*
+
 .imatge2{
-    width: 42%;
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -159,10 +160,8 @@ html {
     justify-items: center;
     margin: auto;
     line-height: 20px;
-    padding-left: 10px;
-    margin-right: 6%;
 }
-*/
+
 .logo{
     max-width: 35px;
     max-height: 35px;
@@ -218,15 +217,9 @@ html {
 
 
 @media only screen and (max-width: 1375px) {
-    .treballs{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: space-around;
-        margin: auto;
-        line-height: 20px;
-        padding-top: 210px;
+
+    .inter{
+        width: 800px;
     }
 
     .imatges{
@@ -237,6 +230,7 @@ html {
     }
 
     .imatge1{
+        width: 50%;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -247,21 +241,10 @@ html {
         justify-items: center;
         margin: auto;
         line-height: 20px;
+        /*padding-right: 10px;*/
+        /*margin-left: 6%;*/
     }
-
-    .imatge2{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        text-align: center;
-        align-content: center;
-        align-items: center;
-        justify-content: center;
-        justify-items: center;
-        margin: auto;
-        line-height: 20px;
-    }
-
+    
     .hrdiv{
         width: 800px;
         padding-bottom: 20px;
