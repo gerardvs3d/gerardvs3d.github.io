@@ -127,6 +127,10 @@ html {
     border-radius: 10px;
 }
 
+.inter{
+    line-height: 40px;
+}
+
 .imatge1{
     width: 50%;
     display: flex;
@@ -229,7 +233,7 @@ html {
         width: 800px;
         margin-bottom: 10px;
         margin: auto;
-        border: 2px white groove;
+        border-radius: 10px;
     }
 
     .imatge1{
