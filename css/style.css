@@ -237,10 +237,6 @@ height: 100%;
 
 @media only screen and (max-width: 1375px) {
 
-    .inter{
-        width: 800px;
-    }
-
     p{
         width: 800px;
     }
