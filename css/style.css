@@ -67,7 +67,7 @@ html {
     justify-items: center;
     margin: auto;
     line-height: 20px;
-    padding-top: 210px;
+    padding-top: 150px;
 }
 
 .home{
@@ -118,12 +118,12 @@ html {
     justify-items: center;
     margin: auto;
     line-height: 20px;
-    padding-top: 210px;
+    padding-top: 150px;
 }
 
 .video-responsive {
 position: relative;
-padding-bottom: 42.55%; /* 2.35/1 ratio */
+padding-bottom: 40%; /* 2.35/1 ratio */
 padding-top: 30px; /* IE6 workaround*/
 height: 0;
 overflow: hidden;
@@ -133,7 +133,7 @@ width: 100%;
 .video-responsive iframe,
 .video-responsive object,
 .video-responsive embed {
-position: absolute;
+/*position: absolute;*/
 top: 0;
 left: 0;
 width: 100%;
@@ -244,6 +244,15 @@ height: 100%;
     h2{
         width: 800px;
     }
+
+    .treballs{
+        padding-top: 210px;
+    }
+
+    .curriculum{
+        padding-top: 210px;
+    }
+
 
     .imatges{
         width: 800px;
