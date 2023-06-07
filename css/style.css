@@ -133,7 +133,7 @@ width: 100%;
 .video-responsive iframe,
 .video-responsive object,
 .video-responsive embed {
-/*position: absolute;*/
+position: absolute;
 top: 0;
 left: 0;
 width: 100%;
