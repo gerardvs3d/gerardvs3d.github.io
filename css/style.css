@@ -124,7 +124,7 @@ html {
 
 .video-responsive {
     position: relative;
-    padding-bottom: 40%; /* 2.35/1 ratio */
+    padding-bottom: 40.5%; /* 2.35/1 ratio */
     padding-top: 30px; /* IE6 workaround*/
     height: 0;
     overflow: hidden;
@@ -218,6 +218,7 @@ html {
     margin: auto;
     width: 125px;
     height: 20px;
+    padding-top: 7px;
 }
 
 .boto_idioma{
@@ -331,20 +332,17 @@ h1{
     padding-top: 25px;
     color: white;
     font-size: 24px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    font-style: normal;
+    font-family: 'Inter:wght@100..900', sans-serif;
     font-weight: 800;
 }
 
 h2, h3, h4{
 	color: rgb(255,255,255);
-	font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    font-style: normal;
-    font-weight: 550;
+	font-family: 'Inter:wght@100..900', sans-serif;
+    font-weight: 600;
     text-shadow: rgba(0,0,0,0.3) 0px 0px 5px;
     width: 100%;
+    /*letter-spacing: 1px;*/
 }
 
 p{
@@ -357,31 +355,27 @@ p{
 
 .font1{
     color: rgb(225,225,225);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter:wght@100..900', sans-serif;
     text-align: center;
-    font-weight: bold;
-    font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 15px;
 }
 
 .font2{
     color: rgb(180,180,180);
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Inter:wght@100..900', sans-serif;
 	text-align: center;
-    font-weight: bold;
-    font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 14px;
 }
 
 .font3{
     color: rgb(225,225,225);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter:wght@100..900', sans-serif;
     text-align: center;
     font-weight: bold;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 12px;
 }
 
