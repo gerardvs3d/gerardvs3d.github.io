@@ -192,16 +192,18 @@ html {
 }
 
 .logo1{
-    max-width: 50px;
-    max-height: 50px;
-    margin-top: 36.94px;
-    margin-bottom: 36.94px;
+    max-width: 35px;
+    max-height: 35px;
+    margin-top: 43.04px;
+    margin-bottom: 43.04px;
 }
 
 .programes{
     max-width: 20px;
     max-height: 20px;
     padding-right: 15px;
+    position: relative; 
+    top: 4px;
 }
 
 .hrdiv{
