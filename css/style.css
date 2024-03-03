@@ -45,14 +45,14 @@ html {
 .align_left{
     display: flex;
     align-content: flex-start;
-    margin-left: 4%;
+    margin-left: 10%;
 }
 
 .align_right{
     display: flex;
     align-content: flex-end;
     margin-top: 35px;
-    margin-right: 4%;
+    margin-right: 10%;
 }
 
 .curriculum{
@@ -204,6 +204,18 @@ html {
     padding-right: 15px;
     position: relative; 
     top: 4px;
+}
+
+.programesC{
+    max-width: 20px;
+    max-height: 20px;
+    padding-right: 10px;
+    position: relative; 
+    top: 4px;
+}
+
+.contactdiv{
+    line-height: 30px;
 }
 
 .hrdiv{
@@ -399,18 +411,15 @@ p{
 }
 
 .linkcontacte a{
-    color: rgb(225,225,225);
+    color: rgb(180,180,180);
     text-decoration: none;
-    padding: 10px;
-    padding-right: 20px;
-    padding-left: 20px;
-    border-radius: 20px;
+    padding: 5px;
     transition: 0.3s all;
     transition-delay: 0s;
 }
 
 .linkcontacte a:hover{
-    background-color: rgba(128,128,128,0.3);
+    color: rgb(225,225,225);
 }
 
 .link_idioma a{
