@@ -71,6 +71,22 @@ html {
     padding-top: 150px;
 }
 
+.cur2{
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    line-height: 20px;
+    /*padding-right: 10px;*/
+    /*margin-left: 6%;*/
+}
+
 .home{
     width: 90%;
     position: absolute;
@@ -110,17 +126,27 @@ html {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    margin: auto;
-    line-height: 20px;
+    flex-direction: row;
+    justify-content: space-around;
     padding-top: 150px;
 }
+
+.treballs1{
+        padding-top: 210px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        margin: auto;
+        line-height: 20px;
+        padding-top: 150px;
+    }
 
 .video-responsive {
     position: relative;
@@ -145,43 +171,132 @@ html {
 
 .imatges{
     width: 100%;
-    margin-bottom: 10px;
-    margin: auto;
     border-radius: 10px;
 }
 
 .inter{
-    line-height: 40px;
+    padding-top: 20px;
+}
+
+.video{
+    padding-top: 20px;
+    border-radius: 10px;
+}
+
+.imatge1 > div {
+    position:absolute;
+    top:44%;
+    left:5px;
+    bottom: 5px;
+    right: 5px;
+    text-align: center;
+    z-index:-1;
+    padding:10px;
+    margin:0;
+}
+
+.imatge1 a:hover{
+    opacity: 0.3;
+    filter: blur(2px);
+    transition: 0.3s all;
+    transition-delay: 0s;
 }
 
 .imatge1{
-    width: 50%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    text-align: center;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
+    width: 49%;
     margin: auto;
-    line-height: 20px;
-    /*padding-right: 10px;*/
-    /*margin-left: 6%;*/
+    margin-left: 10%;
+    margin-bottom: 1%;
+    display:inline-block;
+    position:relative;
+    opacity: 1;
 }
 
 .imatge2{
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    text-align: center;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
+    width: 30%;
     margin: auto;
-    line-height: 20px;
+    margin-right: 10%;
+    margin-bottom: 1%;
+    display:inline-block;
+    position:relative;
+    opacity: 1;
+}
+
+.imatge2 > div {
+    position:absolute;
+    top:43%;
+    left:5px;
+    bottom: 5px;
+    right: 5px;
+    text-align: center;
+    z-index:-1;
+    padding:10px;
+    margin:0;
+}
+
+.imatge2 a:hover{
+    opacity: 0.3;
+    filter: blur(2px);
+    transition: 0.3s all;
+    transition-delay: 0s;
+}
+
+.imatge3{
+    width: 30%;
+    margin: auto;
+    margin-left: 10%;
+    margin-bottom: 1%;
+    display:inline-block;
+    position:relative;
+    opacity: 1;
+}
+
+.imatge3 > div {
+    position:absolute;
+    top:43%;
+    left:5px;
+    bottom: 5px;
+    right: 5px;
+    text-align: center;
+    z-index:-1;
+    padding:10px;
+    margin:0;
+}
+
+.imatge3 a:hover{
+    opacity: 0.3;
+    filter: blur(2px);
+    transition: 0.3s all;
+    transition-delay: 0s;
+}
+
+.imatge4{
+    width: 49%;
+    margin: auto;
+    margin-right: 10%;
+    margin-bottom: 1%;
+    display:inline-block;
+    position:relative;
+    opacity: 1;
+}
+
+.imatge4 > div {
+    position:absolute;
+    top:43%;
+    left:5px;
+    bottom: 5px;
+    right: 5px;
+    text-align: center;
+    z-index:-1;
+    padding:10px;
+    margin:0;
+}
+
+.imatge4 a:hover{
+    opacity: 0.3;
+    filter: blur(2px);
+    transition: 0.3s all;
+    transition-delay: 0s;
 }
 
 .logo{
@@ -254,6 +369,40 @@ html {
 
 
 
+.imatge11{
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        margin: auto;
+        line-height: 20px;
+        /*padding-right: 10px;*/
+        /*margin-left: 6%;*/
+    }
+
+.imatge22{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        margin: auto;
+        line-height: 20px;
+        /*padding-right: 10px;*/
+        /*margin-left: 6%;*/
+    }
+
+
+
 @media only screen and (max-width: 1375px) {
 
     p{
@@ -266,6 +415,19 @@ html {
 
     .treballs{
         padding-top: 210px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        margin: auto;
+        line-height: 20px;
+        padding-top: 150px;
     }
 
     .curriculum{
@@ -281,6 +443,86 @@ html {
     }
 
     .imatge1{
+        width: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        margin: auto;
+        line-height: 20px;
+        /*padding-right: 10px;*/
+        /*margin-left: 6%;*/
+    }
+
+    .imatge2{
+        width: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        margin: auto;
+        line-height: 20px;
+        /*padding-right: 10px;*/
+        /*margin-left: 6%;*/
+    }
+
+    .imatge3{
+        width: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        margin: auto;
+        line-height: 20px;
+        /*padding-right: 10px;*/
+        /*margin-left: 6%;*/
+    }
+
+    .imatge4{
+        width: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        margin: auto;
+        line-height: 20px;
+        /*padding-right: 10px;*/
+        /*margin-left: 6%;*/
+    }
+
+    .imatge11{
+        width: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        margin: auto;
+        line-height: 20px;
+        /*padding-right: 10px;*/
+        /*margin-left: 6%;*/
+    }
+
+    .imatge22{
         width: 800px;
         display: flex;
         flex-wrap: wrap;
@@ -325,7 +567,8 @@ html {
     .align_left{
         display: flex;
         align-content: flex-start;
-        padding-right: 60px;
+        padding-right: 0px;
+        margin-left: 0px;
     }
 
     .align_right{
