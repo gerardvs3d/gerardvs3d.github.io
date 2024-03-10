@@ -674,6 +674,14 @@ p{
     font-size: 12px;
 }
 
+.font4{
+    color: rgb(225,225,225);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+}
+
 .links a{
     color: rgb(180,180,180);
     text-decoration: none;
