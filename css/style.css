@@ -24,7 +24,7 @@ html {
     background-repeat: no-repeat;
 }
 
-.top_container{
+.header{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -37,8 +37,6 @@ html {
     margin: auto;
     position: fixed;
     backdrop-filter: blur(4px);
-    padding-bottom: 20px;
-    padding-top: 0px;
     z-index:2;
 }
 
@@ -46,13 +44,17 @@ html {
     display: flex;
     align-content: flex-start;
     margin-left: 10%;
+    position: relative;
+    bottom: 10px;
 }
 
 .align_right{
     display: flex;
     align-content: flex-end;
-    margin-top: 35px;
+    margin-top: 28px;
     margin-right: 10%;
+    position: relative;
+    bottom: 10px;
 }
 
 .curriculum{
@@ -88,38 +90,86 @@ html {
 }
 
 .home{
-    width: 90%;
+    width: 80%;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
     line-height: 20px;
+    text-align: center;
 }
 
-.bottom_container{
+.fixed_footer{
     width: 100%;
+    height: 215px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    text-align: center;
     background-color: rgba(0,0,0,.6);
     background-attachment: fixed;
     background-position: absolute;
-    /*border-top: 1px solid white;*/
-    margin: auto;
     position: absolute;
     bottom: 0px;
 }
 
-.bottom_container1{
+.footer{
     width: 100%;
+    height: 215px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    text-align: center;
     background-color: rgba(0,0,0,.6);
     background-attachment: fixed;
     background-position: absolute;
-    /*border-top: 1px solid white;*/
-    margin: auto;
+}
+
+.social{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 25px;
+}
+
+.logo{
+    max-width: 24px;
+    position: relative;
+    margin-right: 20px;
+}
+
+.logo1{
+    max-width: 35px;
+    max-height: 35px;
+}
+
+.xxss{
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.boto_social{
+    width: 40px;
+}
+
+.GV{
+    position: relative;
+    top: 47px;
+}
+
+.boto_top{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    top: 43.03px;
+}
+
+.gmail{
+    position: relative;
+    top: 2px; 
 }
 
 .treballs{
@@ -183,9 +233,27 @@ html {
     border-radius: 10px;
 }
 
+.imatge1 a, .imatge2 a, .imatge3 a, .imatge4 a{
+    opacity: 1;
+    filter: blur(0px);
+    transition: 0.3s all;
+    transition-delay: 0s;
+    text-decoration: none;
+}
+
+.imatge1{
+    width: 49%;
+    margin: auto;
+    margin-left: 10%;
+    margin-bottom: 1%;
+    display:inline-block;
+    position:relative;
+    opacity: 1;
+}
+
 .imatge1 > div {
     position:absolute;
-    top:44%;
+    top:43%;
     left:5px;
     bottom: 5px;
     right: 5px;
@@ -198,18 +266,6 @@ html {
 .imatge1 a:hover{
     opacity: 0.3;
     filter: blur(2px);
-    transition: 0.3s all;
-    transition-delay: 0s;
-}
-
-.imatge1{
-    width: 49%;
-    margin: auto;
-    margin-left: 10%;
-    margin-bottom: 1%;
-    display:inline-block;
-    position:relative;
-    opacity: 1;
 }
 
 .imatge2{
@@ -237,8 +293,6 @@ html {
 .imatge2 a:hover{
     opacity: 0.3;
     filter: blur(2px);
-    transition: 0.3s all;
-    transition-delay: 0s;
 }
 
 .imatge3{
@@ -266,8 +320,6 @@ html {
 .imatge3 a:hover{
     opacity: 0.3;
     filter: blur(2px);
-    transition: 0.3s all;
-    transition-delay: 0s;
 }
 
 .imatge4{
@@ -297,20 +349,6 @@ html {
     filter: blur(2px);
     transition: 0.3s all;
     transition-delay: 0s;
-}
-
-.logo{
-    max-width: 35px;
-    max-height: 35px;
-    margin-top: 44px;
-    margin-right: 20px;
-}
-
-.logo1{
-    max-width: 35px;
-    max-height: 35px;
-    margin-top: 43.04px;
-    margin-bottom: 43.04px;
 }
 
 .programes{
@@ -352,13 +390,13 @@ html {
 
 .boto_idioma{
     margin: auto;
-    width: 25px;
+    width: 28px;
 }
 
 .div_idioma{
     display: flex;
     flex-wrap: wrap;
-    padding-top: 2px;
+    padding-top: 4px;
 }
 
 .banderes{
@@ -589,14 +627,14 @@ h1{
     padding-top: 25px;
     color: white;
     font-size: 24px;
-    font-family: 'Inter:wght@100..900', sans-serif;
-    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
 }
 
 h2, h3, h4{
 	color: rgb(255,255,255);
-	font-family: 'Inter:wght@100..900', sans-serif;
-    font-weight: 600;
+	font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     text-shadow: rgba(0,0,0,0.3) 0px 0px 5px;
     width: 100%;
     /*letter-spacing: 1px;*/
@@ -612,23 +650,23 @@ p{
 
 .font1{
     color: rgb(225,225,225);
-    font-family: 'Inter:wght@100..900', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 15px;
 }
 
 .font2{
     color: rgb(180,180,180);
-	font-family: 'Inter:wght@100..900', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	text-align: center;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 14px;
 }
 
 .font3{
     color: rgb(225,225,225);
-    font-family: 'Inter:wght@100..900', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     font-weight: bold;
     font-style: normal;
@@ -683,5 +721,5 @@ p{
 }
 
 .idioma_active a{
-    
+    color: white;
 }

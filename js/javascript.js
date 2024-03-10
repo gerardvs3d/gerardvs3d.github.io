@@ -25,11 +25,4 @@ function showSlides() {
 
 }
 
-// O NPM
-npm install jquery-aspect-ratio-keeper --save
-// O Yarn
-yarn add jquery-aspect-ratio-keeper
-// O Bower
-bower install jquery-aspect-ratio-keeper
-
 $('iframe').aspectRatioKeeper()
