@@ -412,36 +412,44 @@ html {
 
 
 .imatge11{
-        width: 50%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        text-align: center;
-        align-content: center;
-        align-items: center;
-        justify-content: center;
-        justify-items: center;
-        margin: auto;
-        line-height: 20px;
-        /*padding-right: 10px;*/
-        /*margin-left: 6%;*/
-    }
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    line-height: 20px;
+    /*padding-right: 10px;*/
+    /*margin-left: 6%;*/
+}
 
 .imatge22{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        text-align: center;
-        align-content: center;
-        align-items: center;
-        justify-content: center;
-        justify-items: center;
-        margin: auto;
-        line-height: 20px;
-        /*padding-right: 10px;*/
-        /*margin-left: 6%;*/
-    }
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    line-height: 20px;
+    /*padding-right: 10px;*/
+    /*margin-left: 6%;*/
+}
+
+.ak_square{
+    display: none;
+}
+
+.venom_square{
+    display: none;
+}
 
 
 
@@ -483,6 +491,9 @@ html {
         width: 100%;
     }
 
+    .contactdiv{
+        width: 100%;
+    }
 
     .imatges{
         width: 100%;
@@ -516,7 +527,7 @@ html {
     }
 
     .imatge2{
-        width: 39%;
+        width: 39.25%;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -528,13 +539,13 @@ html {
         margin: auto;
         line-height: 20px;
         margin-bottom: 1%;
-        margin-right: 1%;
+        margin-right: 0.75%;
         /*padding-right: 10px;*/
         /*margin-left: 6%;*/
     }
 
     .imatge3{
-        width: 39%;
+        width: 39.25%;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -546,7 +557,7 @@ html {
         margin: auto;
         line-height: 20px;
         margin-bottom: 1%;
-        margin-left: 1%;
+        margin-left: 0.75%;
         /*padding-right: 10px;*/
         /*margin-left: 6%;*/
     }
@@ -599,7 +610,23 @@ html {
         /*padding-right: 10px;*/
         /*margin-left: 6%;*/
     }
+
+    .ak{
+        display: none;
+    }
+
+    .ak_square{
+        display: block;
+    }
     
+    .venom{
+        display: none;
+    }
+
+    .venom_square{
+        display: block;
+    }
+
     .hrdiv{
         width: 100%;
         padding-bottom: 20px;
@@ -774,7 +801,7 @@ p{
     font-size: 14px;
 }
 
-/*font per lletra petita (cambridge assessement...*/
+/*font per lletra petita (cambridge assessement...)*/
 .font3{
     color: rgb(225,225,225);
     font-family: 'Roboto', sans-serif;
