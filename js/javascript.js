@@ -72,7 +72,7 @@ function hideMenu() {
     open.style.pointerEvents = "none"; // Deshabilitar interacciones con el menú
     setTimeout(function() {
         open.style.display = "none";
-    }, 500); // Espera hasta que termine la transición antes de ocultar definitivamente el menú
+    }, 200); // Espera hasta que termine la transición antes de ocultar definitivamente el menú
 
     document.getElementById('open').style.opacity = '1'; // Mostrar el botón de apertura
     document.getElementById('open').style.pointerEvents = 'auto'; // Permitir interacciones con el botón de apertura
