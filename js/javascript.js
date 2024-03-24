@@ -28,19 +28,59 @@ function showSlides() {
 $('iframe').aspectRatioKeeper()
 
 
-
 function showMenu() {
-  var text = document.getElementById("menulist");
-  text.style.display = "block";
+  /*
+  var open = document.getElementById("menulist");
+  open.style.display = "block";
 
   document.getElementById('open').style.display = 'none';
   document.getElementById('close').style.display = 'block';
+  */
 }
 
 function hideMenu() {
-  var text = document.getElementById("menulist");
-  text.style.display = "none";
+  /*
+  var close = document.getElementById("menulist");
+  close.style.display = "none";
 
   document.getElementById('open').style.display = 'block';
   document.getElementById('close').style.display = 'none';
+  */
 }
+
+
+
+
+function showMenu() {
+    var open = document.getElementById("menulist");
+    open.style.display = "block";
+    setTimeout(function() {
+        open.style.opacity = "1"; // Mostrar el menú suavemente
+    }, 50);
+    open.style.pointerEvents = "auto"; // Permitir interacciones con el menú
+
+    document.getElementById('open').style.opacity = '0'; // Ocultar el botón de apertura
+    document.getElementById('open').style.pointerEvents = 'none'; // Deshabilitar interacciones con el botón de apertura
+    document.getElementById('close').style.opacity = '1'; // Mostrar el botón de cierre
+}
+
+function hideMenu() {
+    var open = document.getElementById("menulist");
+    open.style.opacity = "0"; // Ocultar el menú suavemente
+    open.style.pointerEvents = "none"; // Deshabilitar interacciones con el menú
+    setTimeout(function() {
+        open.style.display = "none";
+    }, 500); // Espera hasta que termine la transición antes de ocultar definitivamente el menú
+
+    document.getElementById('open').style.opacity = '1'; // Mostrar el botón de apertura
+    document.getElementById('open').style.pointerEvents = 'auto'; // Permitir interacciones con el botón de apertura
+    document.getElementById('close').style.opacity = '0'; // Ocultar el botón de cierre
+}
+
+
+
+
+
+
+
+
