@@ -28,6 +28,8 @@ function showSlides() {
 $('iframe').aspectRatioKeeper()
 
 
+
+
 function showMenu() {
   /*
   var open = document.getElementById("menulist");

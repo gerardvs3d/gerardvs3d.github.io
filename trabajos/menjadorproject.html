@@ -3,152 +3,98 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Gerard Vivó Portfolio</title>
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="../css/style.css">
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
-	<script src="js/javascript.js"></script>
+	<script src="../js/javascript.js"></script>
 
-	<link rel="icon" href="imgs/logo_web.png">
+	<link rel="icon" href="../imgs/logo_web.png">
 </head>
 
 <body class="background1" id="top">
 	<header>
-		<div class="top_container">
+		<div class="header">
 			<div class="align_left">
-				<a href="inicio.html"> <img class="logo" src="imgs/logo.png"> </a>
-				<h1>Trabajos</h1>
+				<div class="GV"> <a href="../inicio.html"> <img class="logo" src="../imgs/logo.png"> </a> </div>
+				<div class="title_treballs"> <a href="../treballs.html"> <h1 class="top_title">Trabajos</h1> </a> </div>
 			</div>
 			<div class="align_right font2">
-				<div class="boto_menu links" > <a href="inicio.html">Inicio</a> </div> 
-    			<div class="boto_menu links"> <a href="curriculum_es.html">Currículum</a> </div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    			<div class="boto_menu tab_active links"> <a href="trabajos.html">Trabajos</a> </div> &nbsp;&nbsp;&nbsp;
-    			<div class="boto_menu links"> <a href="contacto.html">Contacto</a> </div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<div class="boto_menu links" > <a href="../inicio.html">Inicio</a> </div> 
+    			<div class="boto_menu links"> <a href="../curriculum_es.html">Currículum</a> </div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    			<div class="boto_menu tab_active links"> <a href="../trabajos.html">Trabajos</a> </div> &nbsp;&nbsp;&nbsp;
+    			<div class="boto_menu links"> <a href="../contacto.html">Contacto</a> </div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     			<div class="div_idioma">
-    				<div class="boto_idioma link_idioma"> <a href="treballs.html"> <img class="banderes" src="imgs/ca.png"> </a> </div>
-    				<div class="boto_idioma link_idioma"> <a href="trabajos.html"> <img class="banderes" src="imgs/es.png"> </a> </div>
-    				<div class="boto_idioma link_idioma"> <a href="projects.html"> <img class="banderes" src="imgs/en.png"> </a> </div>
+    				<div class="boto_idioma link_idioma" title="Català"> <a href="../treballs/menjadorproject.html"> CA </a> </div>
+    				<div class="boto_idioma idioma_active link_idioma" title="Español"> <a href="menjadorproject.html"> ES </a> </div>
+    				<div class="boto_idioma link_idioma" title="English"> <a href="../projects/menjadorproject.html"> EN </a> </div>
     			</div>
   			</div>
+		</div>
+
+		<div class="header_phone">
+			<div class="align_left_phone">
+				<div class="GV"> <a href="../index.html"> <img class="logo" src="../imgs/logo.png"> </a> </div>
+				<h1 class="top_title">Trabajos</h1>
+			</div>
+				<div class="align_right_phone">
+					<div class="open"> <button onclick="showMenu()"> <img class="logo2 menulogo1" id="open" src="../imgs/open.png"> </button> </div>
+					<div class=""> <a href="../treballs.html"> <img class="logo2 backlogo" id="" src="../imgs/back.png"> </a> </div>
+				</div>
+			<div class="menulist font2" id="menulist">
+					<div class="close">
+						<div class=""> <button onclick="hideMenu()"> <img class="logo2 closemenulogo" id="close" src="../imgs/close.png"> </button> </div>
+					</div>
+				<div class="align_menu_phone">
+					<div class="boto_menu links" > <a href="../inicio.html">Inicio</a> </div> 
+	    			<div class="boto_menu links"> <a href="../curriculum_es.html">Currículum</a> </div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    			<div class="boto_menu tab_active links"> <a href="../trabajos.html">Trabajos</a> </div> &nbsp;&nbsp;&nbsp;
+	    			<div class="boto_menu links"> <a href="../contacto.html">Contacto</a> </div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    			<div class="div_idioma">
+	    				<div class="boto_idioma link_idioma" title="Català"> <a href="../treballs/menjadorproject.html"> Català </a> </div>
+	    				<div class="boto_idioma idioma_active link_idioma" title="Español"> <a href="menjadorproject.html"> Español </a> </div>
+	    				<div class="boto_idioma link_idioma" title="English"> <a href="../projects/menjadorproject.html"> English </a> </div>
+	    			</div>
+    			</div>
+			</div>
 		</div>
 	</header>
 
 	<section>
 		<article>
-			<div class="treballs font1">
-				<div class="imatge1">
-					<h2>Frozen Hazard</h2>
+			<div class="treballs1 font1">
+				<div class="imatge11">
+					<h2>Comedor project (wip)</h2>
 					<div class="hrdiv2">	
 						<hr>
 					</div>
-					<div class="video-responsive">
-						<iframe class="fh_video" src="https://www.youtube.com/embed/XsFS7I52I6k" title="Frozen Hazard - Unreal Engine 5 Short Film" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
-					</div>
-					<div class="imatge2">
-						<p class="inter">Frozen Hazard es un corto de animación hecho en Unreal Engine 5 como proyecto final de grado.</p>
-						<p class="inter">Yo me encargué de: modelado y texturizado del arma del personaje principal, animación del personaje principal y de las cámaras, edición, montaje, sonido y corrección de color.</p>
-						<p class="inter">Software utilizado:&nbsp;&nbsp;&nbsp;&nbsp;<img class="programes ue" src="../imgs/ue.png"> <img class="programes maya" src="imgs/maya2023.png"> <img class="programes pt" src="imgs/pt.png"> <img class="programes mixamo" src="imgs/mixamo.png"> <img class="programes pr" src="imgs/pr.png"> <img class="programes ae" src="imgs/ae.png"></p>
+					<img class="imatges1" src="../imgs/menjadorwip.jpg">
+					<div class="imatge22">
+						<p class="inter interline">Proyecto de recreación en 3D de un comedor con estilo realista. Trabajo en proceso.</p>
+						<p>Software utilizado:&nbsp;&nbsp;&nbsp;&nbsp;<img class="programes maya" src="../imgs/maya2023.png"> <img class="programes pr" src="../imgs/pr.png"></p>
 						<br>
-	    				<br>
-	    				<br>
 	    				<br>
 	    				<br>
     				</div>
     			</div>
-
-				<div class="imatge1">
-					<h2>AK-47</h2>
-					<div class="hrdiv2">
-						<hr>
-					</div>
-					<img class="imatges" src="imgs/1.png">
-					<p class="inter">Modelado y texturizado de una AK-47 low poly&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;&nbsp;Software utilizado:&nbsp;&nbsp;&nbsp;&nbsp;<img class="programes maya" src="imgs/maya2023.png"> <img class="programes pt" src="imgs/pt.png"> <img class="programes ps" src="imgs/ps.png"></p>
-					<br>
-		    		<br>
-		    		<br>
-		    		<br>
-		    		<br>
-		    	</div>
-
-		    	<div class="imatge1">
-					<h2>House</h2>
-					<div class="hrdiv2">
-						<hr>
-					</div>
-					<img class="imatges" src="imgs/2.png">
-					<p class="inter">Modelado y texturizado de una casa low poly&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;&nbsp;Software utilizado:&nbsp;&nbsp;&nbsp;&nbsp;<img class="programes maya" src="imgs/maya2023.png"> <img class="programes pt" src="imgs/pt.png"> <img class="programes ps" src="imgs/ps.png"></p>
-					<br>
-		    		<br>
-		    		<br>
-		    		<br>
-		    		<br>
-		    	</div>
-
-		    	<div class="imatge1">
-					<h2>Venom</h2>
-					<div class="hrdiv2">
-						<hr>
-					</div>
-					<img class="imatges" src="imgs/3.png">
-					<p class="inter">Modelado cabeza Venom&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;&nbsp;Software utilizado:&nbsp;&nbsp;&nbsp;&nbsp;<img class="programes zbrush" src="imgs/zbrush.png"> <img class="programes ps" src="imgs/ps.png"></p>
-					<br>
-		    		<br>
-		    		<br>
-		    		<br>
-		    		<br>
-		    	</div>
-
-		    	<div class="imatge1">
-					<h2>Comedor</h2>
-					<div class="hrdiv2">
-						<hr>
-					</div>
-					<img class="imatges" src="imgs/menjador.png">
-					<p class="inter">Modelado comedor&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;&nbsp;Software utilizado:&nbsp;&nbsp;&nbsp;&nbsp;<img class="programes maya" src="imgs/maya2023.png"></p>
-					<br>
-		    		<br>
-		    		<br>
-		    		<br>
-		    		<br>
-		    	</div>
-<!--
-		    	<div class="imatge1">
-					<h2>W.I.P.</h2>
-					<div class="hrdiv2">
-						<hr>
-					</div>
-					<img class="imatges" src="../../../imgs/wip.png">
-					<p>W.I.P.</p>
-					<br>
-		    		<br>
-		    		<br>
-		    		<br>
-		    		<br>
-		    	</div>
-
-		    	<div class="imatge2">
-					<h2>W.I.P.</h2>
-					<div class="hrdiv2">
-						<hr>
-					</div>
-					<img class="imatges" src="../../../imgs/wip.png">
-					<p>W.I.P.</p>
-					<br>
-		    		<br>
-		    		<br>
-		    		<br>
-		    		<br>
-		    	</div>
-	    	</div>
--->
+    		</div>
 		</article>
 	</section>
 
 	<footer>
-		<div class="bottom_container1">
-			<a href="#top"> <img class="logo1" src="imgs/logo.png"> </a>
+		<div class="fixed_footer font4">
+			<div class="boto_top"> <a href="#top"> <img class="logo1" src="../imgs/logo.png"> </a> </div>
+			<div class="social">
+				<div class="boto_social" title="Email"> <a href="mailto:gerardvivo832@gmail.com"> <img class="xxss gmail" src="../imgs/gmail.png"> </a> </div>
+				<div class="boto_social" title="LinkedIn"> <a href="https://www.linkedin.com/in/gerard-viv%C3%B3-s%C3%A1nchez-a10087231/" target="_blank"> <img class="xxss" src="../imgs/li.png"> </a> </div>
+				<div class="boto_social" title="ArtStation"> <a href="https://www.artstation.com/user-5861418" target="_blank"> <img class="xxss" src="../imgs/as.png"> </a> </div>
+				<div class="boto_social" title="Instagram"> <a href="https://www.instagram.com/gerardvs_/" target="_blank"> <img class="xxss" src="../imgs/ig.png"> </a> </div>
+				<div class="boto_social" title="X (Twitter)"> <a href="https://twitter.com/gvivoo8" target="_blank"> <img class="xxss" src="../imgs/x.png"> </a> </div>
+			</div>
+			<p class="cr">© 2024 Gerard Vivó. Todos los derechos reservados.</p>
+			<br>
 		</div>
 	</footer>
 </body>
