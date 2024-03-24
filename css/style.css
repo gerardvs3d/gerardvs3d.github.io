@@ -703,8 +703,6 @@ html {
         position: relative;
         top: 23px;
         padding: 20px;
-        border-radius: 50%;
-        background-color: rgba(200, 200, 200, .3);
     }
 
     #menulist {
@@ -744,9 +742,6 @@ html {
         margin: auto;
         background-color: transparent;
         border: none;
-        transition: 0.3s all;
-        transition-delay: 0s;
-        background-color: rgba(200, 200, 200, .3);
     }
 
     .curriculum{

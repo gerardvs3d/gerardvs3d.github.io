@@ -58,7 +58,7 @@ function showMenu() {
     open.style.display = "block";
     setTimeout(function() {
         open.style.opacity = "1"; // Mostrar el menú suavemente
-    }, 50);
+    }, 0);
     open.style.pointerEvents = "auto"; // Permitir interacciones con el menú
 
     document.getElementById('open').style.opacity = '0'; // Ocultar el botón de apertura
