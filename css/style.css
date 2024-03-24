@@ -135,12 +135,15 @@ html {
 
 .logo{
     max-width: 24px;
-    position: relative;
 }
 
 .logo1{
     max-width: 35px;
     max-height: 35px;
+}
+
+.logo2{
+    max-width: 35px;
 }
 
 .xxss{
@@ -156,6 +159,55 @@ html {
     position: relative;
     top: 47px;
     margin-right: 20px;
+}
+
+.menulogo{
+    width: 40px;
+    display: block;
+    position: relative;
+    top: 15px;
+}
+
+.closemenulogo{
+    width: 40px;
+    position: relative;
+    bottom: 100px;
+    left: 30%;
+}
+
+.open{
+    position: relative;
+    top: 13px;
+}
+
+.close{
+    position: relative;
+    top: 16px;
+    left: 41.5%;
+}
+
+#menulist{
+    display: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-bottom: 10000px;
+}
+
+.menulist{
+    transition: 0.3s all;
+    transition-delay: 0s;
+}
+
+#menulogo{
+    display: none;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    transition: 0.3s all;
+    transition-delay: 0s;
 }
 
 .boto_top{
@@ -182,21 +234,21 @@ html {
 }
 
 .treballs1{
-        padding-top: 210px;
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: space-between;
-        text-align: center;
-        align-content: center;
-        align-items: center;
-        justify-content: center;
-        justify-items: center;
-        margin: auto;
-        line-height: 20px;
-        padding-top: 150px;
-    }
+    padding-top: 210px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    line-height: 20px;
+    padding-top: 150px;
+}
 
 .video-responsive {
     position: relative;
@@ -451,6 +503,14 @@ html {
     display: none;
 }
 
+.header_phone{
+    display: none;
+}
+
+.home_phone{
+    display: none;
+}
+
 
 
 @media only screen and (max-width: 1375px) {
@@ -677,11 +737,25 @@ html {
     }
 
     .curriculum{
-        padding-top: 275px;
+        font-size: 30px;
+        padding-top: 200px;
     }
 
     .treballs{
-        padding-top: 275px;
+        padding-top: 200px;
+    }
+
+    .treballs1{
+        padding-top: 150px;
+    }
+
+    .contactdiv{
+        font-size: 30px;
+        line-height: 70px;
+    }
+
+    .linkcontacte{
+        font-size: 30px;
     }
 
     .cur2{
@@ -701,13 +775,13 @@ html {
     }
 
     .boto_menu{
-        font-size: 30px;
+        font-size: 40px;
         position: relative;
         bottom: 15px;
     }
 
     .boto_idioma{
-        font-size: 30px;
+        font-size: 40px;
         margin-right: 25px;
         position: relative;
         bottom: 5px;
@@ -752,6 +826,111 @@ html {
 
     .cr{
         font-size: 15px;
+    }
+
+    .header{
+        display: none;
+    }
+
+    .header_phone{
+        display: block;
+    }
+
+    .header_phone{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: rgba(0,0,0,.85);
+        background-attachment: fixed;
+        background-position: absolute;
+        /*border-bottom: 1px solid white;*/
+        margin: auto;
+        position: fixed;
+        backdrop-filter: blur(4px);
+        z-index:2;
+    }
+
+    .align_left_phone{
+        display: flex;
+        align-content: flex-start;
+        margin-left: 5%;
+        position: relative;
+        bottom: 13px;
+    }
+
+    .align_right_phone{
+        display: flex;
+        align-content: flex-end;
+        margin-top: 28px;
+        margin-right: 5%;
+        position: relative;
+        bottom: 13px;
+    }
+
+    .align_menu_phone{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .boto_menu{
+        margin: auto;
+        width: 20%;
+        height: 20px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .boto_idioma{
+        margin: auto;
+        width: 10%;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .div_idioma{
+        width: 20%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        margin: auto;
+        padding-top: 70px;
+        width: 50%;
+    }
+
+    .home{
+        display: none;
+    }
+
+    .home_phone{
+        display: block;
+    }
+
+    .programes{
+        max-width: 30px;
+        max-height: 30px;
+        padding-right: 15px;
+        position: relative; 
+        top: 4px;
+    }
+
+    .programesC{
+        max-width: 40px;
+        max-height: 40px;
+        padding-right: 20px;
+        position: relative; 
+        top: 10px;
     }
 
 }
